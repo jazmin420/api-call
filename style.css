@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+nav {
+  background-color: rgb(68, 27, 173);
+  color: white;
+  font-size: 60px;
+  padding: 20px;
+  font-weight: 600;
+}
+.search-div {
+  width: 50%;
+  margin: 50px auto;
+}
+input {
+  width: 100%;
+  padding: 20px 40px ;
+  border-radius: 10px;
+}
+::placeholder {
+  color: black;
+  font-size: 20px;
+}
+button {
+  padding: 20px 40px;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: rgb(68, 27, 173);
+  color: white;
+  border: none;
+}
+.button-div {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+#result {
+  background-color: rgb(216, 208, 208);
+  width: 50%;
+  margin: auto;
+  padding: 0 30px;
+  line-height: 2;
+  box-shadow: 0px 0px 5px rgb(106, 105, 105);
+}
+a {
+  color: blue;
+  font-weight: 600;
+}
